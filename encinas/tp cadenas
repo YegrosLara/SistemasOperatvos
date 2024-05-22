@@ -1,0 +1,61 @@
+
+n=int(input("Ingrese un número"))
+for char in range(1, n):
+ print(end=  "*")
+
+
+n=int(input("Ingrese un número"))
+for char in range(1, n+1):
+   print(char*"*")
+
+
+n=int(input("Ingrese un número"))
+a="*"
+for char in range(0, n):
+   print(a)
+   a=a+("*")*2
+
+
+Palabra= input("Ingrese una palabra")
+Espacio=(110-len(Palabra))//2
+print(" "*Espacio+Palabra)
+ 
+
+Palabra= input("Ingrese una palabra")
+Espacio=(123-len(Palabra))
+print(" "*Espacio+Palabra)
+
+
+palabra=input("Ingrese una palabra")
+longitud= len(palabra) + 4
+print("*" * longitud )
+print("* " + palabra + " *")
+print("*" * longitud )
+
+
+palabra=input("Ingrese una palabra")
+letra=input("Ingrese una letra")
+contador=0
+for i in palabra:
+   if i ==letra :
+       contador=contador+1
+print(contador)
+
+
+palabra= input("Ingrese una palabra")
+contador= 0
+for i in palabra:
+   if i=="a" or i=="e" or i=="i" or i=="o" or i=="u":
+       contador= contador+1
+print(contador)
+
+
+cadena = input("Ingrese una palabra")
+letra = input("Ingrese una letra")
+cadena_modificada= cadena.replace(letra,"*")
+print("la cadena modifica es:", cadena_modificada
+
+
+
+
+
